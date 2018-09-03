@@ -21,7 +21,7 @@ def find_specific_data(data):
     return db.pull(data)
 
 def update_data(name,data):
-    return db.push(name.data)
+    return db.push(name,data)
 
 print("Enter Command :")
 while True:
